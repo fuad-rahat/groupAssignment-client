@@ -1,0 +1,53 @@
+{
+  "name": "groupassignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "overrides": {
+    "@react-pdf/renderer": {
+      "react": "^18.0.0"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf/renderer": "^3.4.2",
+    "@tanstack/react-query": "^5.29.0",
+    "axios": "^1.6.8",
+    "file-saver": "^2.0.5",
+    "firebase": "^10.10.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "pdfjs-dist": "^3.4.120",
+    "react": "^18.2.0",
+    "react-datepicker": "^6.6.0",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-pdf": "^7.7.1",
+    "react-router-dom": "^6.22.3",
+    "sort-by": "^1.2.0",
+    "sweetalert2": "^11.10.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.10.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0",
+    "worker-loader": "^3.0.8"
+  }
+}
